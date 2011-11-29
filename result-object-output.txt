@@ -1,0 +1,55 @@
+$VAR1 = bless( {
+                 'request' => bless( {
+                                       'headers' => bless( {
+                                                             'user-agent' => 'Net::HTTP::Spore v0.03 (Perl)',
+                                                             'accept' => 'application/json'
+                                                           }, 'HTTP::Headers' ),
+                                       'env' => {
+                                                  'SCRIPT_NAME' => '/db/data',
+                                                  'SERVER_NAME' => '127.0.0.1',
+                                                  'PATH_INFO' => '/index/node/fieldvalues/name?query=It',
+                                                  'REQUEST_METHOD' => 'GET',
+                                                  'spore.url_scheme' => 'http',
+                                                  'spore.expected_status' => [
+                                                                               200
+                                                                             ],
+                                                  'sporex.deserialization' => 1,
+                                                  'QUERY_STRING' => undef,
+                                                  'HTTP_USER_AGENT' => 'Net::HTTP::Spore v0.03 (Perl)',
+                                                  'SERVER_PORT' => '7474',
+                                                  'spore.params' => [
+                                                                      'index',
+                                                                      'fieldvalues',
+                                                                      'q',
+                                                                      'It',
+                                                                      'key',
+                                                                      'name'
+                                                                    ],
+                                                  'sporex.serialization' => 1,
+                                                  'spore.formats' => [
+                                                                       'json'
+                                                                     ],
+                                                  'spore.errors' => *::STDERR,
+                                                  'REQUEST_URI' => '',
+                                                  'spore.payload' => undef,
+                                                  'spore.userinfo' => undef,
+                                                  'spore.authentication' => 0
+                                                },
+                                       'path' => '/index/node/fieldvalues/name?query=It'
+                                     }, 'Net::HTTP::Spore::Request' ),
+                 'body' => [],
+                 'headers' => bless( {
+                                       'connection' => 'close',
+                                       'client-response-num' => 1,
+                                       'access-control-allow-origin' => '*',
+                                       'content-encoding' => 'UTF-8',
+                                       'client-peer' => '127.0.0.1:7474',
+                                       'content-length' => '3',
+                                       'client-date' => 'Tue, 29 Nov 2011 01:38:53 GMT',
+                                       'client-warning' => 'Redirect loop detected (max_redirect = 0)',
+                                       'content-type' => 'application/json',
+                                       'server' => 'Jetty(6.1.25)'
+                                     }, 'HTTP::Headers' ),
+                 'status' => '200',
+                 'raw_body' => '[ ]'
+               }, 'Net::HTTP::Spore::Response' );

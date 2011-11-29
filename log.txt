@@ -1,0 +1,16 @@
+== enabling middleware Net::HTTP::Spore::Middleware::Redirection
+== enabling middleware Net::HTTP::Spore::Middleware::Format::JSON
+> GET /db/data/index/node/fieldvalues/name?query=It
+> Host: 127.0.0.1
+> Accept: application/json
+> User-Agent: Net::HTTP::Spore v0.03 (Perl)
+< Connection: close
+< Server: Jetty(6.1.25)
+< Content-Encoding: UTF-8
+< Content-Length: 3
+< Content-Type: application/json
+< Access-Control-Allow-Origin: *
+< Client-Date: Tue, 29 Nov 2011 01:38:53 GMT
+< Client-Peer: 127.0.0.1:7474
+< Client-Response-Num: 1
+< Client-Warning: Redirect loop detected (max_redirect = 0)
